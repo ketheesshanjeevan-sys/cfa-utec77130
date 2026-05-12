@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.center-titre-i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    font-family: "Arial Black", "Gadget", sans-serif;
+    font-size: 16px;
+    letter-spacing: -1.8px;
+    word-spacing: 0px;
+    color: #000000;
+
+    font-weight: 400;
+    text-decoration: underline;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    
+}
+.image-ecole{
+
+    width: 400px;
+}
+
+.navbar {
+    position : sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(214, 86%, 25%);
+    padding: 1em 1em;
+
+    color: white;
+    box-shadow: 0 4px 12px 3px rgba(0,0,0,0.5); 
+    border-radius : 0px 0px 14px 16px;
+    
+}
+
+.nav-links {
+    position : sticky;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #182ac7;
+}
+
+#bande{
+    background-color: #182ac7;
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+
+    font-size: 12px;
+    margin-top:-80px;
+    padding-top:120px;
+}
+
+#bande H1 {
+    display: inline-block;
+    border: 10px solid white;
+    padding: 8px 20px;
+}
+
+#bande_contact{
+    background-color: #182ac7;
+    text-align: center;
+    margin: 0em 0em;
+    padding: 40px 0 ;
+
+
+    color: white;
+    font-size: 24px;
+    margin-top:-80px;
+    padding-top:120px;
+}
+
+#bande_forma{
+    background-color: #182ac7;
+    text-align: center;
+    margin: 0em 0em;
+    padding: 40px 0 ;
+    color: white;
+    font-size: 24px;
+    margin-top:-80px;
+
+    padding-top:120px;
+}
+
+.formulaire {
+    padding: 2em 2em;
+
+}
+
+#nom{
+    border-radius : 10px;
+}
+
+#prenom{
+    border-radius : 10px;
+}
+
+#email{
+    border-radius : 10px;
+}
+
+#message1{
+    border-radius : 10px;
+}
+
+#button{
+    border-radius : 10px;
+}
+
+#email::placeholder{
+    font-weight: bold;
+    opacity: 0.5;
+    color: red;
+}
+
+#Sous-sous-t{
+    margin-left: 50px;
+    margin-right: 25px;
+
+    font-size: 20px;
+}
+
+.logo {
+    text-decoration: none;
+
+    transition: color 0.7s;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+
+    color: #ebeaea;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+
+
+
+.valeurs-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    flex-wrap: wrap;
+}
+
+
+.bulle {
+    background: #ffffff;
+    border-radius: 5px;
+    
+    padding: 40px 30px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 2px solid transparent;
+}
+
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.bulle h3 {
+    color: #182ac7;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.bulle p {
+    color: #5d6d7e;
+    line-height: 1.6;
+    
+}
+
+#Sous-sous-t {
+    display: inline-block;
+    border: 2px solid rgb(6, 61, 80);
+    padding: 8px 20px;}
+
+.portes-ouvertes {
+    text-align: center;
+    font-size: 24px;
+    padding: 30px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 30px 50px;
+}
+
+.texte-simple {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin: 20px 80px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.image-contact {
+    width: 400px;   
+    border-radius: 10px;    
+}
+
+
+.image-contact {
+    width: 400px;          
+    border-radius: 10px;  
+    padding: 20px 20px; 
+}
+
+.locali {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    font-family: "Arial Black", "Gadget", sans-serif;
+    font-size: 16px;
+    color: #000000;
+
+    font-weight: 400;
+
+    text-transform: uppercase;
+}
